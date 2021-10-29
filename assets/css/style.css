@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    padding: 10vh 0;
+}
+
+section {
+    text-align: center;
+}
+
+body section div {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 3vw;
+}
+
+body section div:hover {
+    box-shadow: 2px 0 10px black;
+}
+
+.div1 {
+    background-image: linear-gradient(to left bottom, #702160 50%, #3f8f54 50%);
+}
+
+.div2 {
+    background-image: linear-gradient(to left bottom, #D9AB42 50%, #454271 50%);
+}
+
+.div3 {
+    background-image: linear-gradient(to left bottom, #C65E2D 50%, #01031F 50%);
+}
+
+.div4 {
+    background-image: linear-gradient(to left bottom, #53CCF9 50%, #081254 50%);
+}
